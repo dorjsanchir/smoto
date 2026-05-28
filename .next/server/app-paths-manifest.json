@@ -1,0 +1,12 @@
+{
+  "/[locale]/brands/[slug]/page": "app/[locale]/brands/[slug]/page.js",
+  "/[locale]/brands/page": "app/[locale]/brands/page.js",
+  "/[locale]/cart/page": "app/[locale]/cart/page.js",
+  "/[locale]/checkout/page": "app/[locale]/checkout/page.js",
+  "/[locale]/page": "app/[locale]/page.js",
+  "/[locale]/products/[id]/page": "app/[locale]/products/[id]/page.js",
+  "/[locale]/products/page": "app/[locale]/products/page.js",
+  "/_global-error/page": "app/_global-error/page.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js"
+}
