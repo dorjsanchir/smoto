@@ -1,0 +1,17 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/[locale]/layout,_N_T_/[locale]/brands/layout,_N_T_/[locale]/brands/[slug]/layout,_N_T_/[locale]/brands/[slug]/page,_N_T_/en/brands/harley"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/$d$locale/brands/$d$slug/__PAGE__",
+    "/$d$locale/brands/$d$slug",
+    "/$d$locale/brands",
+    "/$d$locale",
+    "/_index",
+    "/_head"
+  ]
+}
