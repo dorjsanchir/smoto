@@ -23,10 +23,10 @@ export default function BrandsPage() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {brands.map((brand) => (
-            <Link
+            <a
               key={brand.slug}
               href={`/mn/brands/${brand.slug}`}
-              className="group relative bg-[#111111] rounded-3xl overflow-hidden border border-[#222222] hover:border-[#F59E0B]/30 transition-all"
+              className="group relative bg-[#111111] rounded-3xl overflow-hidden border border-[#222222] hover:border-[#F59E0B]/30 transition-all block"
             >
               <div
                 className="h-2"
@@ -62,7 +62,7 @@ export default function BrandsPage() {
                   </div>
                 </div>
               </div>
-            </Link>
+            </a>
           ))}
         </div>
       </div>
