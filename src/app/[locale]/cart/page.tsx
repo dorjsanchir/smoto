@@ -31,7 +31,7 @@ export default function CartPage() {
       <div className="min-h-screen bg-[#0a0a0a] py-16 px-6 text-center">
         <h1 className="text-3xl font-bold text-white mb-4">Сагс</h1>
         <p className="text-[#a3a3a3] mb-8">Сагс хоосон байна</p>
-        <Link href="/products" className="px-8 py-4 bg-[#F59E0B] text-[#0a0a0a] font-bold rounded-xl">
+        <Link href="/mn/products" className="px-8 py-4 bg-[#F59E0B] text-[#0a0a0a] font-bold rounded-xl">
           Бараа үзэх
         </Link>
       </div>
@@ -81,7 +81,7 @@ export default function CartPage() {
               </div>
             </div>
             <button
-              onClick={() => router.push("/checkout")}
+              onClick={() => router.push("/mn/checkout")}
               className="w-full py-4 bg-[#F59E0B] text-[#0a0a0a] font-bold rounded-xl hover:bg-[#F59E0B]/90 transition-colors"
             >
               Төлбөр төлөх
