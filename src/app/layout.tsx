@@ -1,4 +1,5 @@
-// Minimal root layout — locale-specific layout in [locale]/layout.tsx handles html/body.
+import "./globals.css";
+
 export default function RootLayout({
   children,
 }: {
