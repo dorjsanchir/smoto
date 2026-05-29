@@ -19,7 +19,7 @@ export default function CheckoutPage() {
   };
 
   const handleSubmit = () => {
-    router.push("/verify");
+    router.push("/mn/verify");
   };
 
   const orderItems = [
