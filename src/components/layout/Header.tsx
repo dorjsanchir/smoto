@@ -9,16 +9,16 @@ export function Header() {
   const pathname = usePathname();
 
   const navItems = [
-    { label: "Нүүр", href: "/" },
-    { label: "Бараа", href: "/products" },
-    { label: "Брэндүүд", href: "/brands" },
-    { label: "Бидний тухай", href: "/about" },
+    { label: "Нүүр", href: "/mn" },
+    { label: "Бараа", href: "/mn/products" },
+    { label: "Брэндүүд", href: "/mn/brands" },
+    { label: "Бидний тухай", href: "/mn/about" },
   ];
 
   return (
     <header className="sticky top-0 z-50 w-full border-b border-[#F59E0B] bg-[#0a0a0a]/95 backdrop-blur">
       <div className="flex h-[88px] items-center justify-between px-6 lg:px-16">
-        <Link href="/" className="text-[#F59E0B] text-[28px] font-bold tracking-[2px]">
+        <Link href="/mn" className="text-[#F59E0B] text-[28px] font-bold tracking-[2px]">
           SMOTO
         </Link>
 
@@ -38,7 +38,7 @@ export function Header() {
 
         <div className="flex items-center gap-4">
           <Link
-            href="/cart"
+            href="/mn/cart"
             className="relative p-2 text-[#e5e5e5] hover:text-[#F59E0B] transition-colors"
           >
             <svg
