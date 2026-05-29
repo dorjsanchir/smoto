@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import Image from "next/image";
+import { useParams } from "next/navigation";
 
 interface Model {
   name: string;
@@ -565,8 +566,10 @@ const brandData: Record<string, BrandInfo> = {
   }
 };
 
-export default function BrandDetailContent({ slug }: { slug: string }) {
-  const brand = brandData[slug];
+export default function BrandDetailContent() {
+  const params = useParams();
+  const slug = params?.slug as string;
+  const brand = slug ? brandData[slug] : null;
 
   if (!brand) {
     return (
