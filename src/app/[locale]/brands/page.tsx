@@ -25,7 +25,7 @@ export default function BrandsPage() {
           {brands.map((brand) => (
             <Link
               key={brand.slug}
-              href={`/brands/${brand.slug}`}
+              href={`/mn/brands/${brand.slug}`}
               className="group relative bg-[#111111] rounded-3xl overflow-hidden border border-[#222222] hover:border-[#F59E0B]/30 transition-all"
             >
               <div
