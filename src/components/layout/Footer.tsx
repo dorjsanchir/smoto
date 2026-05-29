@@ -6,7 +6,7 @@ export function Footer() {
       <div className="px-6 lg:px-16 py-16">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12">
           <div className="space-y-4">
-            <Link href="/" className="text-[#F59E0B] text-2xl font-bold tracking-[2px]">
+            <Link href="/mn" className="text-[#F59E0B] text-2xl font-bold tracking-[2px]">
               SMOTO
             </Link>
             <p className="text-[#737373] text-sm leading-relaxed">
@@ -20,7 +20,7 @@ export function Footer() {
               {["Нүүр", "Бараа", "Брэндүүд", "Бидний тухай"].map((item) => (
                 <li key={item}>
                   <Link
-                    href="/"
+                    href="/mn"
                     className="text-[#737373] text-sm hover:text-[#F59E0B] transition-colors"
                   >
                     {item}
