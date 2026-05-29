@@ -68,13 +68,13 @@ export default function HomePage() {
             </p>
             <div className="flex gap-4">
               <Link
-                href="/products"
+                href="/mn/products"
                 className="px-8 py-4 bg-[#F59E0B] text-[#0a0a0a] font-bold rounded-xl hover:bg-[#F59E0B]/90 transition-colors"
               >
                 Бараа үзэх
               </Link>
               <Link
-                href="/brands"
+                href="/mn/brands"
                 className="px-8 py-4 border border-[#333333] text-white font-bold rounded-xl hover:border-[#F59E0B] hover:text-[#F59E0B] transition-colors"
               >
                 Брэндүүд
@@ -90,7 +90,7 @@ export default function HomePage() {
           <div className="flex items-center justify-between mb-12">
             <h2 className="text-3xl font-bold text-white">Шилдэг мотоциклүүд</h2>
             <Link
-              href="/products"
+              href="/mn/products"
               className="text-[#F59E0B] font-semibold hover:underline"
             >
               Бүгдийг харах →
@@ -101,7 +101,7 @@ export default function HomePage() {
             {featuredProducts.map((product) => (
               <Link
                 key={product.id}
-                href={`/products/${product.id}`}
+                href={`/mn/products/${product.id}`}
                 className="group block bg-[#111111] rounded-3xl overflow-hidden border border-[#222222] hover:border-[#F59E0B]/30 transition-all"
               >
                 <div className="aspect-[4/3] relative overflow-hidden">
@@ -136,7 +136,7 @@ export default function HomePage() {
             {brands.map((brand) => (
               <Link
                 key={brand.slug}
-                href={`/brands/${brand.slug}`}
+                href={`/mn/brands/${brand.slug}`}
                 className="group relative bg-[#0a0a0a] rounded-2xl p-8 text-center border border-[#222222] hover:border-[#F59E0B]/30 transition-all"
               >
                 <div
