@@ -160,7 +160,7 @@ export default function BrandDetailContent({ slug }: { slug: string }) {
             {brand.models.map((model) => (
               <Link
                 key={model.name}
-                href="/products"
+                href="/mn/products"
                 className="group block bg-[#111111] rounded-3xl overflow-hidden border border-[#222222] hover:border-[#F59E0B]/30 transition-all"
               >
                 <div className="aspect-[4/3] relative overflow-hidden">
