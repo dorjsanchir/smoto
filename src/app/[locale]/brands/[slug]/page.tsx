@@ -17,6 +17,6 @@ export function generateStaticParams() {
   ];
 }
 
-export default function BrandDetailPage({ params }: { params: { slug: string } }) {
-  return <BrandDetailContent slug={params.slug} />;
+export default function BrandDetailPage() {
+  return <BrandDetailContent />;
 }
