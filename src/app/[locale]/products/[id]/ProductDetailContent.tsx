@@ -32,9 +32,9 @@ export default function ProductDetailContent({ id }: { id: string }) {
     <div className="min-h-screen bg-[#0a0a0a] py-8 px-6 lg:px-16">
       <div className="max-w-7xl mx-auto">
         <div className="flex items-center gap-2 text-sm text-[#737373] mb-8">
-          <Link href="/" className="hover:text-[#F59E0B]">Нүүр</Link>
+          <Link href="/mn" className="hover:text-[#F59E0B]">Нүүр</Link>
           <span>/</span>
-          <Link href="/products" className="hover:text-[#F59E0B]">Бараа</Link>
+          <Link href="/mn/products" className="hover:text-[#F59E0B]">Бараа</Link>
           <span>/</span>
           <span className="text-white">{product.name}</span>
         </div>
@@ -99,7 +99,7 @@ export default function ProductDetailContent({ id }: { id: string }) {
             {relatedProducts.map((p) => (
               <Link
                 key={p.id}
-                href={`/products/${p.id}`}
+                href={`/mn/products/${p.id}`}
                 className="group block bg-[#111111] rounded-2xl overflow-hidden border border-[#222222] hover:border-[#F59E0B]/30 transition-all"
               >
                 <div className="aspect-[4/3] relative overflow-hidden">
